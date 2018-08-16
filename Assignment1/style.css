@@ -78,11 +78,15 @@ body {
     overflow: hidden;
 }
 
-.profile-description {
+.profile-description-div {
     font-size: 17px;
     text-align: left;
 }
 
+.profile-description{
+    width: inherit;
+    margin-right: 0;
+}
 .container {
     width: 64em;
     margin: 0 auto;
@@ -109,26 +113,9 @@ body {
 }
 
 .home-address, .email-address, .contact, .website {
-    height: 1.563em;
-    width: 1.563em;
-    text-align: right;
-    position: absolute;
-}
-
-.home-address {
-    margin-left: 8px;
-}
-
-.email-address {
-    margin-left: 153px;
-}
-
-.contact {
-    margin-left: 223px;
-}
-
-.website {
-    margin-left: 148px;
+    height: inherit;
+    width: 1.3em;
+    float: right;
 }
 
 .middle {

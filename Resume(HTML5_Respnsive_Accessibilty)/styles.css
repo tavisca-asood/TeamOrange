@@ -1,0 +1,261 @@
+*{
+    font-family: sans-serif;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    max-width: 1024px;
+    min-width: 340px;
+    margin: 0 auto;
+}
+
+.outer-box{
+    background-color: white;
+    padding: 1em;
+    margin-top: 2.5em;
+    height: 48%;
+}
+.qualification {
+    margin-top: 60px;
+}
+.head {
+    letter-spacing: 2px;
+    font-size: 27px;
+}
+.name {
+    color: #FFA500;
+    padding: 1em;
+    font-size: 1.5em;
+    letter-spacing: 3px;
+}
+.header {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    height: 12.500em;
+    margin: 0;
+    justify-content: center;
+    text-align: center;
+    background-color: #ABB8B8;
+}
+.data {
+    padding: 1.5em;
+    border: 2px solid;
+    align-self: center;
+    background-color: #FFFFFF;
+}
+.designation {
+    color: grey;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+.inner-container {
+    background-color: white;
+    width: auto;
+    align-content: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+.profile {
+    align-self: center;
+    width: 14em;
+    font-size: 25px;
+    text-align: center;
+}
+.middle{
+    width: 18em;
+    text-align: center;
+    align-self: center;
+}
+.image {
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+.profile-description-div {
+    align-self: center;
+    padding-top: 3em;
+    font-size: 17px;
+    text-align: left;
+    width: 22em;
+    padding-left: 0.6em;
+}
+.description {
+    color: #808080;
+    font-size: 20px;
+    text-align: justify;
+    max-height: 20.000em;
+    position: relative;
+    overflow: hidden;
+}
+.naming-data {
+    padding-top: 48px;
+}
+.home-address, .email-address, .contact, .website {
+    height: inherit;
+    width: 1.3em;
+    float: right;
+}
+.button {
+    font-size: 15px;
+}
+h2 {
+    padding: 0;
+    margin: 0;
+    letter-spacing: 3px;
+}
+.experience {
+    margin-top: 35px;
+}
+.experience-block {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 25.000em;
+    display: table;
+}
+.experience-list {
+    width: 75%;
+    text-align: left;
+}
+.experience-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.experience-address {
+    padding-top: 29px;
+    width: 25%;
+    height: 100%;
+}
+ul {
+    color: grey;
+    list-style-type: disc;
+}
+li {
+    font-size: 1.2em;
+}
+h3 {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid;
+    line-height: 0.1em;
+    padding-top: 10px;
+    margin: 10px 0 20px;
+}
+h3 span {
+        background-color: #D2B48C;
+        padding: 10px;
+        font-size: 27px;
+        font-weight: 200;
+        letter-spacing: 3px;
+}
+.address {
+    float: right;
+    width: 6.250em;
+    line-height: 30px;
+    padding-top: 1em;
+    height: 8.125em;
+    background-color: #808080;
+    text-align: center;
+}
+.education {
+    text-align: center;
+    background-color: #FFFFFF;
+    padding: 7px;
+    font-size: 21px;
+    border: 2px solid #000000;
+    font-weight: 200;
+}
+.skills {
+border: 0px;
+background-color: tan;
+}
+.line-one,.line-two{
+    width: 3.2em;
+    margin-top: 2.5em;
+    color:#000000; 
+}
+hr{
+    border: 1px solid #000000;
+}
+.skills-profile {
+    padding-top: 1.563em;
+    width: 19.2em;
+    text-align: justify;
+    margin-bottom: 3em;
+}
+.skills-profile .para {
+        color: #808080;
+}
+.skills-profile-description li {
+    font-size: 1em;
+    list-style-type: none;
+    color: #000000;
+    margin-bottom: 1em;
+    margin-left: -37px;
+    text-align: center;
+}
+.footer {
+    background-color: #D2B48C;
+    width: 100%;
+    height: 30px;
+}
+@media screen and (max-width:1023px){
+.line-two{
+    visibility: hidden;
+}
+}
+@media screen and (max-width:665px)
+{
+    .line-one{
+        visibility: hidden;
+    }
+    .skills-profile{
+        margin-left: 2em;
+        margin-bottom: 0;
+    }
+    .profile{
+        margin-left: 0.6em;
+    }
+}
+.dialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+.dialog {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	opacity:0;
+	pointer-events: none;
+}
+.dialog > div {
+	width: 400px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background: #fff;
+}
+.cross{
+    float:right;
+    text-decoration-line: none;
+}
+.read-more{
+    font-size:15px;
+}
+
+.education-list{
+    list-style-type: none;
+    padding: 0;
+}

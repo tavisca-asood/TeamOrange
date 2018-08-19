@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Homepage | ORXe 2.0</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<body>
+    <header>
+        <section class="container">
+            <figure class="logo">
+                <img src="images/logo.png" alt="logo">
+            </figure>
+            <section class="user">
+                <section class="user-details">
+                    <p>User Name</p>
+                    <p>Points</p>
+                </section>
+                <nav class="navigation-small">
+                    <a href="#">Rewards Home</a> |
+                    <a href="#">Profile</a> |
+                    <a href="#">My Trips</a> |
+                    <a href="#">Sign Out</a>
+                </nav>
+            </section>
+            <section class="itinerary">
+                <p>My Itinerary ></p>
+            </section>
+        </section>
+    </header>
+    <main>
+        <nav class="navigation-bar">
+            <a href="#">Flights</a>
+            <a href="#">Hotels</a>
+            <a href="#">Cars</a>
+            <a href="#">Activities</a>
+            <a href="#">Cruise Specials</a>
+            <a href="#">Deals</a>
+        </nav>
+        <section class="form-section">
+            <section class="section-data">
+                <p class="section-heading">Spread your wings and discover new destinations!</p>
+                <a class="section-link" href="#">View Offers</a>
+            </section>
+            <article class="form-article">
+                <nav class="tabs">
+                    <a class="first-child" href="#"><img class="plane-image" src="images/plane.png">Flight</a>
+                    <a href="#"><img class="bed-image" src="images/bed.png">Hotel</a>
+                    <a href="#"><img class="car-image" src="images/car.png"> Car</a>
+                    <a href="#"><img class="activity-image" src="images/activity.png">Activity</a>
+                </nav>
+                <form class="details-form" method="post">
+                    <p class="form-heading">Search For Flights</p>
+                    <section class="navbar">
+                        <a href="#">Round Trip</a>
+                        <a href="#">One Way</a>
+                        <a href="#">Multiple<br>Destination</a>
+                    </section>
+                    <section class="input-elements">
+                        <section>
+                            <p>Departure City</p>
+                            <input type="text" placeholder="Airport or City">
+                        </section>
+                        <section>
+                            <p>Destination City</p>
+                            <input type="text" placeholder="Airport or City">
+                        </section>
+                        <section>
+                            <p>Departure Date</p>
+                            <input type="date">
+                        </section>
+                        <section>
+                            <p>Return Date</p>
+                            <input type="date">
+                        </section>
+                    </section>
+                    <section class="dropdown-elements">
+                        <section>
+                            <p>Adults(18+)</p>
+                            <input type="text">
+                        </section>
+                        <section>
+                            <p>Youths(12-17)</p>
+                            <input type="text">
+                        </section>
+                        <section>
+                            <p>Children(0-11)</p>
+                            <input type="text">
+                        </section>
+                    </section>
+                    <section class="age-info">
+                        <a href="#">Age information</a>
+                    </section>
+                    <section class="more-info">
+                        <a href="#">More Options ++</a>
+                        <input class="search" type="button" value="SEARCH FLIGHTS">
+                    </section>
+                </form>
+            </article>
+        </section>
+        <section class="deal-finder">
+            <section class="ads">
+                <img src="images/ad1.png">
+                <img src="images/ad2.png">
+                <img src="images/ad3.png">
+            </section>
+            <section class="deal-heading">
+                DEAL FINDER
+            </section>
+            <section class="deal-search">
+                <input type="search" placeholder="Find offer by destination or name"> <p class="search-button">SEARCH</p>
+            </section>
+            <p class="filter-heading">Filter Results</p>
+            <section class="filter-results">
+                <a class="active" href="#">
+                    <img class="hotel-filter" src="images/bed.png">HOTEL<input class="hotel-box" type="checkbox" checked>
+                </a>
+                <a href="#"> <img class="car-filter" src="images/car.png">CAR<input class="car-box" type="checkbox"></a>
+                <a href="#"> <img class="cruise-filter" src="images/cruise.png">CRUISE<input class="cruise-box" type="checkbox"></a>
+            </section>
+        </section>
+        <section class="deals-table">
+            <table class="offers">
+                <tr>
+                    <th>Destination</th>
+                    <th>Name</th>
+                    <th>Valid Through</th>
+                    <th>Offer</th>
+                </tr>
+                <tr>
+                    <td class="table-destination">Fort Myers Beach, US</td>
+                    <td class="table-name">Wyndham Garden Fort Myers Beach</td>
+                    <td class="table-valid">Jul 30, 2018</td>
+                    <td class="table-offer">Save Up To 20%</td>
+                </tr>
+                <tr>
+                    <td class="table-destination">Orlando, US</td>
+                    <td class="table-name">WorldQuest Orlando Resort</td>
+                    <td class="table-valid">Aug 10, 2018</td>
+                    <td class="table-offer">Save Up To 25%</td>
+                </tr>
+                <tr>
+                    <td class="table-destination">New York, US</td>
+                    <td class="table-name">Sheraton New York Times Square Hotel</td>
+                    <td class="table-valid">Aug 30, 2018</td>
+                    <td class="table-offer">Save Up To 20%</td>
+                </tr>
+                <tr>
+                    <td class="table-destination">New York City, US</td>
+                    <td class="table-name">Courtyard By Marriott New York Manhattan/Times Sqaure</td>
+                    <td class="table-valid">Aug 30, 2018</td>
+                    <td class="table-offer">Up To 20%</td>
+                </tr>
+                <tr>
+                    <td class="table-destination">Puerto Vallarta, MX</td>
+                    <td class="table-name">The Westin Resort & Spa Puerto Vallarta</td>
+                    <td class="table-valid">Aug 30, 2018</td>
+                    <td class="table-offer">Up To 40%</td>
+                </tr>
+            </table>
+            <section class="load-more">
+                <p>Load More</p>
+            </section>
+            <figure class="vegas-img">
+                <img src="images/vegas.png" alt="vegas">
+            </figure>
+        </section>
+    </main>
+    <footer>
+        <section class="container">
+            <section class="main-navigation">
+                <h4>Main Navigation</h4>
+                <hr>
+                <nav class="main-navigation-links">
+                    <ul type="none">
+                        <li>
+                            <a href="#">Flights</a>
+                        </li>
+                        <li>
+                            <a href="#">Hotels</a>
+                        </li>
+                        <li>
+                            <a href="#">Cars</a>
+                        </li>
+                        <li>
+                            <a href="#">Activities</a>
+                        </li>
+                        <li>
+                            <a href="#">Cruises</a>
+                        </li>
+                        <li>
+                            <a href="#">Deals</a>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+            <section class="other-links">
+                <h4>Other Links</h4>
+                <hr>
+                <nav class="other-navigation-links">
+                    <ul type="none">
+                        <li>
+                            <a href="#">Frequently Asked Questions</a>
+                        </li>
+                        <li>
+                            <a href="#">Seller of Travel</a>
+                        </li>
+                        <li>
+                            <a href="#">Website Terms of Use</a>
+                        </li>
+                        <li>
+                            <a href="#">Travel Terms & Conditions</a>
+                        </li>
+                        <li>
+                            <a href="#">Privacy Policy</a>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+        </section>
+    </footer>
+    </main>
+</body>
+</html>
